@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  11 DEC 2017 22:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  11 DEC 2017 23:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1118,7 +1118,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 Non-PDF special ignored!
 
 ]
-<figures/sigchi-logo.png, id=117, 241.8636pt x 55.407pt>
+<figures/sigchi-logo.png, id=89, 241.8636pt x 55.407pt>
 File: figures/sigchi-logo.png Graphic file (type png)
 
 <use figures/sigchi-logo.png>
@@ -1155,7 +1155,11 @@ line 233.
 LaTeX Warning: Citation `psy:gangnam' on page \thepage  undefined on input line
  233.
 
-<figures/map.png, id=121, 1023.825pt x 484.81125pt>
+
+LaTeX Warning: Reference `fig:figure1' on page \thepage  undefined on input lin
+e 304.
+
+<figures/map.png, id=92, 1023.825pt x 484.81125pt>
 File: figures/map.png Graphic file (type png)
  <use figures/map.png>
 Package pdftex.def Info: figures/map.png used on input line 309.
@@ -1164,6 +1168,11 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 314.
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
 (Font)              scaled to size 8.0pt on input line 314.
+
+
+LaTeX Warning: Reference `fig:figure1' on page \thepage  undefined on input lin
+e 319.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
@@ -1265,41 +1274,33 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 525.
  (./proceedings.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 525.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 525.
-Package rerunfilecheck Info: File `proceedings.out' has not changed.
-(rerunfilecheck)             Checksum: 1CA09C124358754E9A198B988A2CE954;1308.
+
+
+Package rerunfilecheck Warning: File `proceedings.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `proceedings.out':
+(rerunfilecheck)             Before: C27BDF0A364B0EB4D521B75D7260ECA7;856
+(rerunfilecheck)             After:  1CA09C124358754E9A198B988A2CE954;1308.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 525.
  ) 
 Here is how much of TeX's memory you used:
- 19740 strings out of 492995
- 360822 string characters out of 6132704
- 451703 words of memory out of 5000000
- 22664 multiletter control sequences out of 15000+600000
+ 19726 strings out of 492995
+ 360654 string characters out of 6132704
+ 451600 words of memory out of 5000000
+ 22657 multiletter control sequences out of 15000+600000
  76255 words of font info for 213 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,56p,1205b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section*.25} has been referenced but does not exi
+pdfTeX warning (dest): name{section*.18} has been referenced but does not exi
 st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.24} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.23} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.22} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.21} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.20} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.19} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.18} has been referenced but does not exist
-, replaced by a fixed one
 
 pdfTeX warning (dest): name{section*.16} has been referenced but does not exist
 , replaced by a fixed one
@@ -1326,10 +1327,10 @@ onts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
 pe1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/ut
 mr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on proceedings.pdf (4 pages, 463041 bytes).
+Output written on proceedings.pdf (4 pages, 462421 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 190 compressed objects within 2 object streams
- 48 named destinations out of 1000 (max. 500000)
- 32455 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 181 PDF objects out of 1000 (max. 8388607)
+ 159 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 32399 words of extra memory for PDF output out of 35830 (max. 10000000)
 
