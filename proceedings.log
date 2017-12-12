@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  11 DEC 2017 23:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 DEC 2017 00:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1112,168 +1112,44 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 116.
- [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+<figures/sigchi-logo.png, id=20, 241.8636pt x 55.407pt>
+File: figures/sigchi-logo.png Graphic file (type png)
+
+<use figures/sigchi-logo.png>
+Package pdftex.def Info: figures/sigchi-logo.png used on input line 218.
+(pdftex.def)             Requested size: 219.58264pt x 50.3029pt.
+
+<figures/map.png, id=22, 1023.825pt x 484.81125pt>
+File: figures/map.png Graphic file (type png)
+ <use figures/map.png>
+Package pdftex.def Info: figures/map.png used on input line 317.
+(pdftex.def)             Requested size: 426.96915pt x 202.18419pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 322.
+LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
+(Font)              scaled to size 8.0pt on input line 322.
+
+[1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 Non-PDF special ignored!
 
-]
-<figures/sigchi-logo.png, id=89, 241.8636pt x 55.407pt>
-File: figures/sigchi-logo.png Graphic file (type png)
-
-<use figures/sigchi-logo.png>
-Package pdftex.def Info: figures/sigchi-logo.png used on input line 210.
-(pdftex.def)             Requested size: 219.58264pt x 50.3029pt.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 221.
-
-
-LaTeX Warning: Citation `acm_categories' on page \thepage  undefined on input l
-ine 221.
-
-
-LaTeX Warning: Citation `ethics' on page \thepage  undefined on input line 221.
-
-
-
-LaTeX Warning: Citation `Klemmer:2002:WSC:503376.503378' on page \thepage  unde
-fined on input line 221.
-
-
-LaTeX Warning: Citation `acm_categories' on page \thepage  undefined on input l
-ine 233.
-
-
-LaTeX Warning: Citation `cavender:writing' on page \thepage  undefined on input
- line 233.
-
-
-LaTeX Warning: Citation `CHINOSAUR:venue' on page \thepage  undefined on input 
-line 233.
-
-
-LaTeX Warning: Citation `psy:gangnam' on page \thepage  undefined on input line
- 233.
-
-
-LaTeX Warning: Reference `fig:figure1' on page \thepage  undefined on input lin
-e 304.
-
-<figures/map.png, id=92, 1023.825pt x 484.81125pt>
-File: figures/map.png Graphic file (type png)
- <use figures/map.png>
-Package pdftex.def Info: figures/map.png used on input line 309.
-(pdftex.def)             Requested size: 426.96915pt x 202.18419pt.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 314.
-LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 8.0pt on input line 314.
-
-
-LaTeX Warning: Reference `fig:figure1' on page \thepage  undefined on input lin
-e 319.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.354 
-       [2 <./figures/sigchi-logo.png>]
-LaTeX Font Info:    Try loading font information for T1+txr on input line 375.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/t1txr.fd
-File: t1txr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Try loading font information for TS1+txr on input line 375.
-
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/ts1txr.fd
-File: ts1txr.fd 2000/12/15 v3.1
-)
-
-LaTeX Warning: Citation `Schwartz:1995:GBF' on page \thepage  undefined on inpu
-t line 383.
-
-
-Underfull \hbox (badness 1057) in paragraph at lines 407--411
-\T1/ptm/m/n/10 (+20) For more in-for-ma-tion and links to in-struc-tions and re
--
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.425 
-       [3 <./figures/map.png>]
-
-LaTeX Warning: Citation `CHINOSAUR:venue' on page \thepage  undefined on input 
-line 500.
-
-
-LaTeX Warning: Citation `cavender:writing' on page \thepage  undefined on input
- line 500.
-
-
-LaTeX Warning: Citation `psy:gangnam' on page \thepage  undefined on input line
- 500.
-
-
-LaTeX Warning: Citation `ethics' on page \thepage  undefined on input line 503.
-
-
-
-LaTeX Warning: Citation `Klemmer:2002:WSC:503376.503378' on page \thepage  unde
-fined on input line 504.
-
-
-LaTeX Warning: Citation `Schwartz:1995:GBF' on page \thepage  undefined on inpu
-t line 505.
-
-
-LaTeX Warning: Citation `sutherland:sketchpad' on page \thepage  undefined on i
-nput line 505.
-
-
-LaTeX Warning: Citation `winner:politics' on page \thepage  undefined on input 
-line 506.
-
-
-LaTeX Warning: Citation `kaye:puc' on page \thepage  undefined on input line 50
-7.
-
-
-LaTeX Warning: Citation `acm_categories' on page \thepage  undefined on input l
-ine 508.
-
-
-LaTeX Warning: Citation `cavender:writing' on page \thepage  undefined on input
- line 508.
-
-
-LaTeX Warning: Citation `CHINOSAUR:venue' on page \thepage  undefined on input 
-line 509.
-
-
-LaTeX Warning: Citation `heilig:sensorama' on page \thepage  undefined on input
- line 509.
-
-
-LaTeX Warning: Citation `psy:gangnam' on page \thepage  undefined on input line
- 510.
-
+ <./figures/sigchi-logo.png>]
 No file proceedings.bbl.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 533.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.525 \end{document}
-                     [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 525.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 525.
+l.533 \end{document}
+                     [2
+
+ <./figures/map.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 533.
  (./proceedings.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 525.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 525.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 533.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 533.
 
 
 Package rerunfilecheck Warning: File `proceedings.out' has changed.
@@ -1281,35 +1157,20 @@ Package rerunfilecheck Warning: File `proceedings.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `proceedings.out':
-(rerunfilecheck)             Before: C27BDF0A364B0EB4D521B75D7260ECA7;856
-(rerunfilecheck)             After:  1CA09C124358754E9A198B988A2CE954;1308.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 525.
+(rerunfilecheck)             Before: 7E37BCF40B620347C181C1653CFA8013;145
+(rerunfilecheck)             After:  E50F314AF0DAF8368CCE51FE48092FDC;347.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 533.
  ) 
 Here is how much of TeX's memory you used:
- 19726 strings out of 492995
- 360654 string characters out of 6132704
- 451600 words of memory out of 5000000
- 22657 multiletter control sequences out of 15000+600000
- 76255 words of font info for 213 fonts, out of 8000000 for 9000
+ 19536 strings out of 492995
+ 358451 string characters out of 6132704
+ 445744 words of memory out of 5000000
+ 22568 multiletter control sequences out of 15000+600000
+ 65087 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,56p,1205b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section*.18} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.16} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.13} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.6} has been referenced but does not exist,
- replaced by a fixed one
+pdfTeX warning (dest): name{section*.6} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{section*.5} has been referenced but does not exist,
  replaced by a fixed one
@@ -1319,18 +1180,15 @@ pdfTeX warning (dest): name{section*.4} has been referenced but does not exist,
 
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/local/texlive/2017/texmf-
-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2017/texmf-dist/f
-onts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
-pe1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ur
-w/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/ut
-mr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on proceedings.pdf (4 pages, 462421 bytes).
+/2017/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-
+dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts
+/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on proceedings.pdf (2 pages, 423871 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
- 32399 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 79 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 28719 words of extra memory for PDF output out of 29859 (max. 10000000)
 
