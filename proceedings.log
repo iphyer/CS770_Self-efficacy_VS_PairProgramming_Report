@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  18 DEC 2017 15:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  18 DEC 2017 15:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1143,19 +1143,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--187
 \T1/txtt/bx/n/8 1FAIpQLSf4tpQ5G2PpgMqj0he0EpliJaHNlK5zVPaoBMCx2fbIy6Q9xA /
  []
 
-<figures/hist1.png, id=106, 505.89pt x 406.6392pt>
+<figures/hist1.png, id=114, 505.89pt x 406.6392pt>
 File: figures/hist1.png Graphic file (type png)
  <use figures/hist1.png>
 Package pdftex.def Info: figures/hist1.png used on input line 193.
 (pdftex.def)             Requested size: 219.58264pt x 176.50192pt.
 
-<figures/hist2.png, id=109, 554.07pt x 1001.6622pt>
+<figures/hist2.png, id=117, 554.07pt x 1001.6622pt>
 File: figures/hist2.png Graphic file (type png)
  <use figures/hist2.png>
 Package pdftex.def Info: figures/hist2.png used on input line 201.
 (pdftex.def)             Requested size: 195.18663pt x 352.86435pt.
 
-<figures/fig3.png, id=110, 554.07pt x 811.833pt>
+<figures/fig3.png, id=118, 554.07pt x 811.833pt>
 File: figures/fig3.png Graphic file (type png)
  <use figures/fig3.png>
 Package pdftex.def Info: figures/fig3.png used on input line 214.
@@ -1166,7 +1166,7 @@ een already used, duplicate ignored
                    \relax 
 l.220 A
        fter we get some sense about the main effects of the model, our next ...
-[2] <figures/fig4.png, id=140, 563.2242pt x 813.2784pt>
+[2] <figures/fig4.png, id=148, 563.2242pt x 813.2784pt>
 File: figures/fig4.png Graphic file (type png)
  <use figures/fig4.png>
 Package pdftex.def Info: figures/fig4.png used on input line 224.
@@ -1186,9 +1186,9 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.256 T
-       he result here partly fit our hypothesis. [3 <./figures/hist1.png> <./fi
-gures/hist2.png> <./figures/fig3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 568--568
+       he result here partly fit our hypothesis and for the four hypotheses ...
+[3 <./figures/hist1.png> <./figures/hist2.png> <./figures/fig3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 569--569
 [][][][][]$\T1/txtt/bx/n/8 http : / / interactivepython . org / runestone / sta
 tic / JavaReview /
  []
@@ -1197,40 +1197,40 @@ tic / JavaReview /
 name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.96 \bibitem{mcdowell2002effects}
-                                   [4 <./figures/fig4.png>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 637.
+l.88 \bibitem{kinnunen2011cs}
+                              [4 <./figures/fig4.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 638.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.637 \end{document}
+l.638 \end{document}
                      [5
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 637.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 638.
  (./proceedings.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 637.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 637.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 638.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 638.
 Package rerunfilecheck Info: File `proceedings.out' has not changed.
-(rerunfilecheck)             Checksum: 916C174E17CFB4BC035888C843457FCF;426.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 637.
+(rerunfilecheck)             Checksum: 6D3296B377EDB95582952B5AE7DE3813;562.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 638.
  ) 
 Here is how much of TeX's memory you used:
- 19755 strings out of 492995
- 361341 string characters out of 6132704
- 448697 words of memory out of 5000000
- 22660 multiletter control sequences out of 15000+600000
+ 19759 strings out of 492995
+ 361389 string characters out of 6132704
+ 448700 words of memory out of 5000000
+ 22662 multiletter control sequences out of 15000+600000
  81272 words of font info for 244 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,56p,1180b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section*.12} has been referenced but does not exi
+pdfTeX warning (dest): name{section*.14} has been referenced but does not exi
 st, replaced by a fixed one
 
-pdfTeX warning (dest): name{section*.11} has been referenced but does not exist
+pdfTeX warning (dest): name{section*.13} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{section*.10} has been referenced but does not exist
+pdfTeX warning (dest): name{section*.12} has been referenced but does not exist
 , replaced by a fixed one
 
 pdfTeX warning (dest): name{section*.9} has been referenced but does not exist,
@@ -1261,10 +1261,10 @@ dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/
 type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on proceedings.pdf (5 pages, 437029 bytes).
+Output written on proceedings.pdf (5 pages, 437056 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 186 compressed objects within 2 object streams
- 56 named destinations out of 1000 (max. 500000)
- 33385 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 220 PDF objects out of 1000 (max. 8388607)
+ 194 compressed objects within 2 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 33401 words of extra memory for PDF output out of 35830 (max. 10000000)
 
