@@ -1,0 +1,150 @@
+```{r}
+#final = read.csv("final.csv", header = T)
+#final = read.csv("bbb.csv", header = T)
+#final = read.csv("data_12082213.csv", header = T)
+#final = rbind(final[1:33,],final[35:dim(final)[1],])
+#final = read.csv("2224.csv", header = T)
+final = read.csv("please.csv", header = T, stringsAsFactors = F)
+final$sco = sub("(\\d+).*", "\\1",final[,2])
+sco = sub("(\\d+).*", "\\1",final[,2])
+final[,4:length(final)] = final[,3:(length(final)-1)]
+final[,3] = as.numeric(sco)/11
+obs = dim(final)[1]
+dep = final[,3]
+i1 = as.numeric(as.character(final[,4]))
+ind1total = data.frame(i1)
+for (i in 5:13) {
+  iii = as.numeric(as.character(final[,i]))
+  ind1total = cbind(ind1total, iii)
+}
+
+i2 = as.numeric(as.character(final[,14]))
+ind2total = data.frame(i2)
+for (i in 15:24) {
+  iii = as.numeric(as.character(final[,i]))
+  ind2total = cbind(ind2total, iii)
+}
+
+
+#change the negative questions to positive paremeters
+ind2total[,7] = 8-ind2total[,7]
+for (i in c(4, 6, 8, 10)) {
+  ind1total[,i] = 8-ind1total[,i]
+}
+#calculate the sum for each ind, each participant
+ind1 = data.frame(ind1 = numeric())
+for (i in 1:obs) {
+  ind1 = rbind(ind1, sum(ind1total[i,]))
+}
+ind2 = data.frame(ind2 = numeric())
+for (i in 1:obs) {
+  ind2 = rbind(ind2, sum(ind2total[i,]))
+}
+
+#change numeric value to categorical value
+cleandata = cbind(ind1, ind2, dep)
+
+cleandata = cleandata[order(cleandata[,1]),]
+cleandata[,1][1:(obs/2)] = "low"
+cleandata[,1][(obs/2+1):obs] = "high"
+
+low1 = cleandata[1:(obs/2),]
+high1 = cleandata[(obs/2+1):obs,] 
+
+low1 = low1[order(low1[,2]),]
+low1[,2][1:(obs/4)] = "bad"
+low1[,2][(obs/4+1):(obs/2)] = "good"
+
+high1 = high1[order(high1[,2]),]
+high1[,2][1:(obs/4)] = "bad"
+high1[,2][(obs/4+1):(obs/2)] = "good"
+
+cleandata = rbind(low1, high1)
+
+
+
+
+hg = mean(cleandata[cleandata[,1] == "high" & cleandata[,2] == "good",][,3])
+lg = mean(cleandata[cleandata[,1] == "low" & cleandata[,2] == "good",][,3])
+hb = mean(cleandata[cleandata[,1] == "high" & cleandata[,2] == "bad",][,3])
+lb = mean(cleandata[cleandata[,1] == "low" & cleandata[,2] == "bad",][,3])
+
+#png("1.png", res=72, width = 500, height = 480, pointsize = 12)
+plot(x = c(0,1,0,1), y = c(lg, hg,lb,hb), xaxt = "n", main = "Change of Score on Different Level of Self Efficacy", xlab = "Level of Self Efficacy", ylab = "Mean of JAVA Programming Score", cex.lab = 1.1, font.lab = 4)
+points(x = c(0,1),y = c(lg,hg), col = "red", pch = 16)
+points(x = c(0,1),y = c(lb,hb), col = "blue", pch = 16)
+lines(x = c(0,1),y = c(lg,hg), col = "red", lty = 2, cex = 2, lwd = 4)
+lines(x = c(0,1),y = c(lb,hb), col = "blue", lty = 1, cex = 2, lwd = 4)
+axis(side = 1, at = c(0,1),labels = c("low", "high"), font = 4)
+text(x = 0.02, y = 0.34, labels = "low SE, good PP", pos = 4)
+text(x = 0.02, y = 0.53, labels = "low SE, bad PP", pos = 4)
+text(x = 1, y = 0.695, labels = "high SE, bad PP", pos = 2)
+text(x = 1, y = 0.55, labels = "high SE, good PP", pos = 2)
+legend("bottomright", legend = c("Based on bad Pair Programming Experience", "Based on good Pair Programming Experience"), col = c("blue", "red"), lty = c(1,2))
+#dev.off()
+
+#png("2.png")
+#, res=72, width = 550, height = 480)
+plot(x = c(0,1,0,1), y = c(lb, lg,hb,hg), xaxt = "n", main = "Change of Score on Different Level of Pair Programming Experience", xlab = "Level of Pair Programming Experience", ylab = "Mean of JAVA Programming Score", cex.lab = 1.1, font.lab = 4)
+points(x = c(0,1),y = c(lb,lg), col = "red", pch = 16)
+points(x = c(0,1),y = c(hb,hg), col = "blue", pch = 16)
+lines(x = c(0,1),y = c(lb,lg), col = "red", lty = 2, cex = 2, lwd = 4)
+lines(x = c(0,1),y = c(hb,hg), col = "blue", lty = 1, cex = 2, lwd = 4)
+axis(side = 1, at = c(0,1),labels = c("low", "high"), font = 4)
+text(x = 1, y = 0.34, labels = "low SE, good PP", pos = 2)
+text(x = 0, y = 0.54, labels = "low SE, bad PP", pos = 4)
+text(x = 0, y = 0.66, labels = "high SE, bad PP", pos = 4)
+text(x = 1, y = 0.6, labels = "high SE, good PP", pos = 2)
+legend("bottomleft", legend = c("Based on Low Self Efficacy", "Based on High Self Efficacy"), col = c("red", "blue"), lty = c(2,1))
+#dev.off()
+
+#cleandata = cleandata[order(cleandata[,3]),]
+#cleandata[,3][1:(obs/2)] = 1
+#cleandata[,3][(obs/2+1):obs] = 2
+
+#cleandata[,1] = as.factor(cleandata[,1])
+#cleandata[,2] = as.factor(cleandata[,2])
+#two way ANOVA
+#describe dependent var
+library(psych)
+depend = data.frame(cleandata[,3], stringsAsFactors = F)
+independs = data.frame(cleandata[,1], cleandata[,2])
+
+#install.packages("sciplot")
+library(sciplot)
+bargraph.CI(cleandata[,1], cleandata[,3],group = cleandata[,2], ylim = c(0,0.8), main = "Groups of Barplot for Scores on Self Efficacy", xlab = "Self Efficacy", ylab = "Score")
+legend("topright", legend = c("bad Pair programming Experience", "good Pair programming Experience"), pch = c(15,15), col = c("black", "grey"))
+bargraph.CI(cleandata[,2], cleandata[,3],group = cleandata[,1], ylim = c(0,0.8), main = "Groups of Barplot for Scores on Pair Programming Experience", xlab = "Pair Programming Experience", ylab = "Score")
+legend("topright", legend = c("high self efficacy", "low self efficacy"), pch = c(15,15), col = c("black", "grey"))
+#step3, two way ANOVA, based on different scales
+model = aov(depend[,1]~independs[,1]*independs[,2])
+print(summary(model))
+#print(TukeyHSD(model))
+
+
+hist(ind1[,1], prob = T, main = "Histogram of Self Efficacy", xlab = "Self Efficacy")
+lines(density(ind1[,1]))
+dens = density(ind1[,1])
+x1 =  min(which(dens$x >= median(ind1[,1])))
+x2 = max(which(dens$x <  max(ind1[,1])))
+x3 = min(which(dens$x >= min(ind1[,1])))
+x4 = max(which(dens$x <  median(ind1[,1])))
+polygon(x=c(dens$x[c(x1,x1:x2,x2)]), y= c(0, dens$y[x1:x2], 0), col = "green", lty = "dashed", lwd = 3, density = c(10, 20), angle = c(-45, 45))
+polygon(x=c(dens$x[c(x3,x3:x4,x4)]), y= c(0, dens$y[x3:x4], 0), col = "blue", lty = "dotted", lwd = 3, density = c(1, 30), angle = c(-30, 30))
+lines(x = c(median(ind1[,1]),median(ind1[,1])), y = c(0, 0.31), type = "l", col = "red")
+legend("topleft", legend = c("low", "high", "Criteria (Median)"), col = c("blue", "green", "red"), lty = c("dotted", "dashed", "solid"))
+
+
+hist(ind2[,1], prob = T, main = "Histogram of Pair Programming Experience", xlab = "Pair Programming Experience")
+lines(density(ind2[,1]))
+dens = density(ind2[,1])
+x1 =  min(which(dens$x >= median(ind2[,1])))
+x2 = max(which(dens$x <  max(ind2[,1])))
+x3 = min(which(dens$x >= min(ind2[,1])))
+x4 = max(which(dens$x <  median(ind2[,1])))
+polygon(x=c(dens$x[c(x1,x1:x2,x2)]), y= c(0, dens$y[x1:x2], 0), col = "green", lty = "dashed", lwd = 3, density = c(10, 20), angle = c(-45, 45))
+polygon(x=c(dens$x[c(x3,x3:x4,x4)]), y= c(0, dens$y[x3:x4], 0), col = "blue", lty = "dotted", lwd = 3, density = c(1, 30), angle = c(-30, 30))
+lines(x = c(median(ind2[,1]),median(ind2[,1])), y = c(0, 0.31), type = "l", col = "red")
+legend("topleft", legend = c("bad", "low", "Criteria (Median)"), col = c("blue", "green", "red"), lty = c("dotted", "dashed", "solid"))
+```
+

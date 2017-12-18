@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 DEC 2017 00:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  18 DEC 2017 09:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -898,58 +898,58 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 \c@@todonotes@numberoftodonotes=\count147
 )
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 87.
-Package hyperref Info: Option `colorlinks' set `true' on input line 87.
-Package hyperref Info: Option `breaklinks' set `true' on input line 87.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 88.
+Package hyperref Info: Option `colorlinks' set `true' on input line 88.
+Package hyperref Info: Option `breaklinks' set `true' on input line 88.
 
 (./proceedings.aux)
 \openout1 = `proceedings.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 93.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 93.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 94.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 94.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 93.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 93.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 94.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 94.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 93.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 93.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 94.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 94.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 93.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 93.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 94.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 94.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 93.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 94.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 93.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 94.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -985,7 +985,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box41
-Package hyperref Info: Link coloring ON on input line 93.
+Package hyperref Info: Link coloring ON on input line 94.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -995,15 +995,15 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count154
 )
-LaTeX Info: Redefining \ref on input line 93.
-LaTeX Info: Redefining \pageref on input line 93.
-LaTeX Info: Redefining \nameref on input line 93.
+LaTeX Info: Redefining \ref on input line 94.
+LaTeX Info: Redefining \pageref on input line 94.
+LaTeX Info: Redefining \nameref on input line 94.
 
 (./proceedings.out) (./proceedings.out)
 \@outlinefile=\write5
 \openout5 = `proceedings.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 93.
+LaTeX Info: Redefining \microtypecontext on input line 94.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1019,7 +1019,7 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 ABD: EveryShipout initializing macros
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 11
-4.
+5.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -1029,77 +1029,77 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 11
-4.
+5.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 11
-4.
+5.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 11
-4.
+5.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 114.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 115.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 114.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 115.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 114.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 115.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 114.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 115.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 114.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 115.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 114.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 115.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 114.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 115.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
 
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 116.
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 116.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 131.
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 131.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
@@ -1109,68 +1109,143 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 116.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 116.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
 
-<figures/sigchi-logo.png, id=20, 241.8636pt x 55.407pt>
-File: figures/sigchi-logo.png Graphic file (type png)
+Underfull \hbox (badness 2245) in paragraph at lines 131--132
+[]\T1/ptm/m/n/10 (+20) Computer ed-u-ca-tion is im-por-tant for the de-vel-op-m
+ent
+ []
 
-<use figures/sigchi-logo.png>
-Package pdftex.def Info: figures/sigchi-logo.png used on input line 218.
-(pdftex.def)             Requested size: 219.58264pt x 50.3029pt.
 
-<figures/map.png, id=22, 1023.825pt x 484.81125pt>
-File: figures/map.png Graphic file (type png)
- <use figures/map.png>
-Package pdftex.def Info: figures/map.png used on input line 317.
-(pdftex.def)             Requested size: 426.96915pt x 202.18419pt.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 322.
-LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 8.0pt on input line 322.
+Underfull \hbox (badness 1087) in paragraph at lines 131--132
+\T1/ptm/m/n/10 (+20) from White house ([][]$\T1/txtt/bx/n/8 https : / / obamawh
+itehouse . archives . gov /
+ []
 
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 Non-PDF special ignored!
 
- <./figures/sigchi-logo.png>]
-No file proceedings.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 533.
+]
+Underfull \hbox (badness 10000) in paragraph at lines 187--189
+[]\T1/ptm/m/n/10 (+20) We dis-tributed the ques-tion-naire which gath-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--189
+\T1/ptm/m/n/10 (+20) ers above 32 ques-tions by us-ing Google
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--189
+\T1/ptm/m/n/10 (+20) form: [][]$\T1/txtt/bx/n/8 https : / / docs . google . com
+ / forms / d / e /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--189
+\T1/txtt/bx/n/8 1FAIpQLSf4tpQ5G2PpgMqj0he0EpliJaHNlK5zVPaoBMCx2fbIy6Q9xA /
+ []
+
+<figures/hist1.png, id=101, 505.89pt x 406.6392pt>
+File: figures/hist1.png Graphic file (type png)
+ <use figures/hist1.png>
+Package pdftex.def Info: figures/hist1.png used on input line 194.
+(pdftex.def)             Requested size: 219.58264pt x 176.50192pt.
+
+<figures/hist2.png, id=104, 554.07pt x 1001.6622pt>
+File: figures/hist2.png Graphic file (type png)
+ <use figures/hist2.png>
+Package pdftex.def Info: figures/hist2.png used on input line 202.
+(pdftex.def)             Requested size: 195.18663pt x 352.86435pt.
+
+<figures/fig3.png, id=105, 554.07pt x 811.833pt>
+File: figures/fig3.png Graphic file (type png)
+ <use figures/fig3.png>
+Package pdftex.def Info: figures/fig3.png used on input line 215.
+(pdftex.def)             Requested size: 195.18663pt x 285.99155pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.533 \end{document}
-                     [2
+l.221 A
+       fter we get some sense about the main effects of the model, our next ...
+[2] <figures/fig4.png, id=132, 563.2242pt x 813.2784pt>
+File: figures/fig4.png Graphic file (type png)
+ <use figures/fig4.png>
+Package pdftex.def Info: figures/fig4.png used on input line 225.
+(pdftex.def)             Requested size: 195.18663pt x 281.83472pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 247.
 
- <./figures/map.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 533.
+Overfull \hbox (24.99133pt too wide) in paragraph at lines 237--252
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.257 T
+       he result here partly fit our hypothesis. [3 <./figures/hist1.png> <./fi
+gures/hist2.png> <./figures/fig3.png>] (./proceedings.bblpdfTeX warning (ext4):
+ destination with the same identifier (name{page.}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.103 
+       [4 <./figures/fig4.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 638.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.638 \end{document}
+                     [5
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 638.
  (./proceedings.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 533.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 533.
-
-
-Package rerunfilecheck Warning: File `proceedings.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `proceedings.out':
-(rerunfilecheck)             Before: 7E37BCF40B620347C181C1653CFA8013;145
-(rerunfilecheck)             After:  E50F314AF0DAF8368CCE51FE48092FDC;347.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 533.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 638.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 638.
+Package rerunfilecheck Info: File `proceedings.out' has not changed.
+(rerunfilecheck)             Checksum: B36E6E10922E66EF698B606C78EC2E41;442.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 638.
  ) 
 Here is how much of TeX's memory you used:
- 19536 strings out of 492995
- 358451 string characters out of 6132704
- 445744 words of memory out of 5000000
- 22568 multiletter control sequences out of 15000+600000
- 65087 words of font info for 162 fonts, out of 8000000 for 9000
+ 19685 strings out of 492995
+ 360216 string characters out of 6132704
+ 448704 words of memory out of 5000000
+ 22607 multiletter control sequences out of 15000+600000
+ 69814 words of font info for 213 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,56p,1205b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section*.6} has been referenced but does not exis
-t, replaced by a fixed one
+ 62i,10n,56p,1150b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{section*.12} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.11} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.10} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.9} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.8} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.7} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.6} has been referenced but does not exist,
+ replaced by a fixed one
 
 pdfTeX warning (dest): name{section*.5} has been referenced but does not exist,
  replaced by a fixed one
@@ -1179,16 +1254,19 @@ pdfTeX warning (dest): name{section*.4} has been referenced but does not exist,
  replaced by a fixed one
 
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></usr/local/texlive
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2017/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/local/texlive/2017
 /texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-
-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts
-/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw
-/times/utmri8a.pfb>
-Output written on proceedings.pdf (2 pages, 423871 bytes).
+dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/
+type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/
+times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr
+i8a.pfb>
+Output written on proceedings.pdf (5 pages, 436766 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
- 28719 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 201 PDF objects out of 1000 (max. 8388607)
+ 175 compressed objects within 2 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 26217 words of extra memory for PDF output out of 29859 (max. 10000000)
 

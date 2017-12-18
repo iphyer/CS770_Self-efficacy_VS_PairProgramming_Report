@@ -1,0 +1,74 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: proceedings.aux
+The style file: SIGCHI-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: sample.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty address in bandura1997self
+Warning--empty publisher in begel2008pair
+Warning--empty address in begel2008pair
+Warning--can't use both volume and number fields in bergin2005programming
+Warning--empty publisher in bergin2005programming
+Warning--empty address in bergin2005programming
+Warning--empty publisher in de2016pair
+Warning--empty address in de2016pair
+Warning--can't use both volume and number fields in hagan2000does
+Warning--empty publisher in hagan2000does
+Warning--empty address in hagan2000does
+Warning--empty publisher in kinnunen2011cs
+Warning--empty address in kinnunen2011cs
+Warning--empty publisher in mcdowell2003impact
+Warning--empty address in mcdowell2003impact
+Warning--can't use both volume and number fields in ramalingam2004self
+Warning--empty publisher in ramalingam2004self
+Warning--empty address in ramalingam2004self
+Warning--can't use both volume and number fields in williams2001support
+Warning--empty publisher in williams2001support
+Warning--empty address in williams2001support
+Warning--can't use both volume and number fields in wilson2001contributing
+Warning--empty publisher in wilson2001contributing
+Warning--empty address in wilson2001contributing
+You've used 18 entries,
+            5283 wiz_defined-function locations,
+            1333 strings with 17346 characters,
+and the built_in function-call counts, 18031 in all, are:
+= -- 2452
+> -- 530
+< -- 5
++ -- 171
+- -- 201
+* -- 1079
+:= -- 1821
+add.period$ -- 91
+call.type$ -- 18
+change.case$ -- 117
+chr.to.int$ -- 18
+cite$ -- 42
+duplicate$ -- 1627
+empty$ -- 1138
+format.name$ -- 249
+if$ -- 4578
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 79
+newline$ -- 151
+num.names$ -- 108
+pop$ -- 642
+preamble$ -- 1
+purify$ -- 189
+quote$ -- 0
+skip$ -- 447
+stack$ -- 0
+substring$ -- 1496
+swap$ -- 180
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 158
+warning$ -- 24
+while$ -- 141
+width$ -- 0
+write$ -- 272
+(There were 24 warnings)

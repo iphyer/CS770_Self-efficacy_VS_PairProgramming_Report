@@ -1,0 +1,178 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{{\tt DOI:}\penalty0{#1}\ }
+  \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
+
+\bibitem{bandura1997self}
+{Albert Bandura}. 1997.
+\newblock {\em Self-efficacy: The exercise of control}.
+\newblock Macmillan.
+\newblock
+
+
+\bibitem{begel2008pair}
+{Andrew Begel} {and} {Nachiappan Nagappan}. 2008.
+\newblock \showarticletitle{Pair programming: what's in it for me?}. In {\em
+  Proceedings of the Second ACM-IEEE international symposium on Empirical
+  software engineering and measurement}. ACM, 120--128.
+\newblock
+
+
+\bibitem{bergin2005programming}
+{Susan Bergin} {and} {Ronan Reilly}. 2005.
+\newblock \showarticletitle{Programming: factors that influence success}. In
+  {\em ACM SIGCSE Bulletin}, Vol.~37. ACM, 411--415.
+\newblock
+
+
+\bibitem{de2016pair}
+{Carolina~Alves de Lima~Salge} {and} {Nicholas Berente}. 2016.
+\newblock \showarticletitle{Pair Programming vs. Solo Programming: What Do We
+  Know After 15 Years of Research?}. In {\em System Sciences (HICSS), 2016 49th
+  Hawaii International Conference on}. IEEE, 5398--5406.
+\newblock
+
+
+\bibitem{guzdial2002teaching}
+{Mark Guzdial} {and} {Elliot Soloway}. 2002.
+\newblock \showarticletitle{Teaching the Nintendo generation to program}.
+\newblock {\it Commun. ACM} {45}, 4 (2002), 17--21.
+\newblock
+
+
+\bibitem{hagan2000does}
+{Dianne Hagan} {and} {Selby Markham}. 2000.
+\newblock \showarticletitle{Does it help to have some programming experience
+  before beginning a computing degree program?}. In {\em ACM SIGCSE Bulletin},
+  Vol.~32. ACM, 25--28.
+\newblock
+
+
+\bibitem{karsten1998computer}
+{Rex Karsten} {and} {Roberta~M Roth}. 1998.
+\newblock \showarticletitle{Computer self-efficacy: A practical indicator of
+  student computer competency in introductory IS courses}.
+\newblock {\em Informing Science\/} {1}, 3 (1998), 61--68.
+\newblock
+
+
+\bibitem{kinnunen2011cs}
+{P{\"a}ivi Kinnunen} {and} {Beth Simon}. 2011.
+\newblock \showarticletitle{CS majors' self-efficacy perceptions in CS1:
+  results in light of social cognitive theory}. In {\em Proceedings of the
+  seventh international workshop on Computing education research}. ACM, 19--26.
+\newblock
+
+
+\bibitem{mcdowell2002effects}
+{Charlie McDowell}, {Linda Werner}, {Heather Bullock}, {and} {Julian Fernald}.
+  2002.
+\newblock \showarticletitle{The effects of pair-programming on performance in
+  an introductory programming course}.
+\newblock {\em ACM SIGCSE Bulletin\/} {34}, 1 (2002), 38--42.
+\newblock
+
+
+\bibitem{mcdowell2003impact}
+{Charlie McDowell}, {Linda Werner}, {Heather~E Bullock}, {and} {Julian
+  Fernald}. 2003.
+\newblock \showarticletitle{The impact of pair programming on student
+  performance, perception and persistence}. In {\em Proceedings of the 25th
+  international conference on Software engineering}. IEEE Computer Society,
+  602--607.
+\newblock
+
+
+\bibitem{ramalingam2004self}
+{Vennila Ramalingam}, {Deborah LaBelle}, {and} {Susan Wiedenbeck}. 2004.
+\newblock \showarticletitle{Self-efficacy and mental models in learning to
+  program}. In {\em ACM SIGCSE Bulletin}, Vol.~36. ACM, 171--175.
+\newblock
+
+
+\bibitem{salleh2014investigating}
+{Norsaremah Salleh}, {Emilia Mendes}, {and} {John Grundy}. 2014.
+\newblock \showarticletitle{Investigating the effects of personality traits on
+  pair programming in a higher education setting through a family of
+  experiments}.
+\newblock {\em Empirical Software Engineering\/} {19}, 3 (2014), 714--752.
+\newblock
+
+
+\bibitem{schumacher2013developing}
+{Daniel~J Schumacher}, {Robert Englander}, {and} {Carol Carraccio}. 2013.
+\newblock \showarticletitle{Developing the master learner: applying learning
+  theory to the learner, the teacher, and the learning environment}.
+\newblock {\em Academic Medicine\/} {88}, 11 (2013), 1635--1645.
+\newblock
+
+
+\bibitem{sherer1982self}
+{Mark Sherer}, {James~E Maddux}, {Blaise Mercandante}, {Steven Prentice-Dunn},
+  {Beth Jacobs}, {and} {Ronald~W Rogers}. 1982.
+\newblock \showarticletitle{The self-efficacy scale: Construction and
+  validation}.
+\newblock {\em Psychological reports\/} {51}, 2 (1982), 663--671.
+\newblock
+
+
+\bibitem{williams2001support}
+{Laurie Williams} {and} {Richard~L Upchurch}. 2001.
+\newblock \showarticletitle{In support of student pair-programming}. In {\em
+  ACM SIGCSE Bulletin}, Vol.~33. ACM, 327--331.
+\newblock
+
+
+\bibitem{williams2000all}
+{Laurie~A Williams} {and} {Robert~R Kessler}. 2000.
+\newblock \showarticletitle{All I really need to know about pair programming I
+  learned in kindergarten}.
+\newblock {\it Commun. ACM} {43}, 5 (2000), 108--114.
+\newblock
+
+
+\bibitem{wilson2001contributing}
+{Brenda~Cantwell Wilson} {and} {Sharon Shrock}. 2001.
+\newblock \showarticletitle{Contributing to success in an introductory computer
+  science course: a study of twelve factors}. In {\em ACM SIGCSE Bulletin},
+  Vol.~33. ACM, 184--188.
+\newblock
+
+
+\bibitem{zimmerman2000self}
+{Barry~J Zimmerman}. 2000.
+\newblock \showarticletitle{Self-efficacy: An essential motive to learn}.
+\newblock {\em Contemporary educational psychology\/} {25}, 1 (2000), 82--91.
+\newblock
+
+
+\end{thebibliography}
