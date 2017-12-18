@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  18 DEC 2017 09:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  18 DEC 2017 15:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1130,6 +1130,11 @@ itehouse . archives . gov /
 Non-PDF special ignored!
 
 ]
+Underfull \hbox (badness 2538) in paragraph at lines 185--186
+\T1/ptm/m/n/10 (+20) gram-ming course, we pre-pared 11 mul-ti-ple ques-tions
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 187--189
 []\T1/ptm/m/n/10 (+20) We dis-tributed the ques-tion-naire which gath-
  []
@@ -1150,41 +1155,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--189
 \T1/txtt/bx/n/8 1FAIpQLSf4tpQ5G2PpgMqj0he0EpliJaHNlK5zVPaoBMCx2fbIy6Q9xA /
  []
 
-<figures/hist1.png, id=101, 505.89pt x 406.6392pt>
+<figures/hist1.png, id=102, 505.89pt x 406.6392pt>
 File: figures/hist1.png Graphic file (type png)
  <use figures/hist1.png>
 Package pdftex.def Info: figures/hist1.png used on input line 194.
 (pdftex.def)             Requested size: 219.58264pt x 176.50192pt.
 
-<figures/hist2.png, id=104, 554.07pt x 1001.6622pt>
+<figures/hist2.png, id=105, 554.07pt x 1001.6622pt>
 File: figures/hist2.png Graphic file (type png)
  <use figures/hist2.png>
 Package pdftex.def Info: figures/hist2.png used on input line 202.
 (pdftex.def)             Requested size: 195.18663pt x 352.86435pt.
-
-<figures/fig3.png, id=105, 554.07pt x 811.833pt>
-File: figures/fig3.png Graphic file (type png)
- <use figures/fig3.png>
-Package pdftex.def Info: figures/fig3.png used on input line 215.
-(pdftex.def)             Requested size: 195.18663pt x 285.99155pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.221 A
-       fter we get some sense about the main effects of the model, our next ...
-[2] <figures/fig4.png, id=132, 563.2242pt x 813.2784pt>
-File: figures/fig4.png Graphic file (type png)
- <use figures/fig4.png>
-Package pdftex.def Info: figures/fig4.png used on input line 225.
-(pdftex.def)             Requested size: 195.18663pt x 281.83472pt.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 247.
-
-Overfull \hbox (24.99133pt too wide) in paragraph at lines 237--252
- [] 
- []
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1192,14 +1173,37 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.257 T
-       he result here partly fit our hypothesis. [3 <./figures/hist1.png> <./fi
-gures/hist2.png> <./figures/fig3.png>] (./proceedings.bblpdfTeX warning (ext4):
- destination with the same identifier (name{page.}) has been already used, dupl
-icate ignored
+l.204 \end{figure}
+                   [2 <./figures/hist1.png>]
+<figures/fig3.png, id=127, 554.07pt x 811.833pt>
+File: figures/fig3.png Graphic file (type png)
+ <use figures/fig3.png>
+Package pdftex.def Info: figures/fig3.png used on input line 215.
+(pdftex.def)             Requested size: 195.18663pt x 285.99155pt.
+
+<figures/fig4.png, id=130, 563.2242pt x 813.2784pt>
+File: figures/fig4.png Graphic file (type png)
+ <use figures/fig4.png>
+Package pdftex.def Info: figures/fig4.png used on input line 225.
+(pdftex.def)             Requested size: 195.18663pt x 281.83472pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 247.
+
+Overfull \hbox (25.6553pt too wide) in paragraph at lines 237--252
+ [] 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.103 
+l.256 
+       [3 <./figures/hist2.png> <./figures/fig3.png>] (./proceedings.bblpdfTeX 
+warning (ext4): destination with the same identifier (name{page.}) has been alr
+eady used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.113 
        [4 <./figures/fig4.png>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 638.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
@@ -1214,18 +1218,25 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 638.
  (./proceedings.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 638.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 638.
-Package rerunfilecheck Info: File `proceedings.out' has not changed.
-(rerunfilecheck)             Checksum: B36E6E10922E66EF698B606C78EC2E41;442.
+
+
+Package rerunfilecheck Warning: File `proceedings.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `proceedings.out':
+(rerunfilecheck)             Before: B36E6E10922E66EF698B606C78EC2E41;442
+(rerunfilecheck)             After:  916C174E17CFB4BC035888C843457FCF;426.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 638.
  ) 
 Here is how much of TeX's memory you used:
- 19685 strings out of 492995
- 360216 string characters out of 6132704
- 448704 words of memory out of 5000000
+ 19682 strings out of 492995
+ 360186 string characters out of 6132704
+ 446697 words of memory out of 5000000
  22607 multiletter control sequences out of 15000+600000
- 69814 words of font info for 213 fonts, out of 8000000 for 9000
+ 69684 words of font info for 211 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,56p,1150b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,10n,56p,1172b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{section*.12} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1263,7 +1274,7 @@ dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/
 type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on proceedings.pdf (5 pages, 436766 bytes).
+Output written on proceedings.pdf (5 pages, 436646 bytes).
 PDF statistics:
  201 PDF objects out of 1000 (max. 8388607)
  175 compressed objects within 2 object streams
