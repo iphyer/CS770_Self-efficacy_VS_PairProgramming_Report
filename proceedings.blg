@@ -30,45 +30,45 @@ Warning--empty address in williams2001support
 Warning--can't use both volume and number fields in wilson2001contributing
 Warning--empty publisher in wilson2001contributing
 Warning--empty address in wilson2001contributing
-You've used 18 entries,
+You've used 19 entries,
             5283 wiz_defined-function locations,
-            1333 strings with 17346 characters,
-and the built_in function-call counts, 18031 in all, are:
-= -- 2452
-> -- 530
+            1338 strings with 17597 characters,
+and the built_in function-call counts, 19103 in all, are:
+= -- 2639
+> -- 558
 < -- 5
-+ -- 171
-- -- 201
-* -- 1079
-:= -- 1821
-add.period$ -- 91
-call.type$ -- 18
-change.case$ -- 117
-chr.to.int$ -- 18
-cite$ -- 42
-duplicate$ -- 1627
-empty$ -- 1138
-format.name$ -- 249
-if$ -- 4578
++ -- 180
+- -- 213
+* -- 1137
+:= -- 1921
+add.period$ -- 96
+call.type$ -- 19
+change.case$ -- 123
+chr.to.int$ -- 19
+cite$ -- 43
+duplicate$ -- 1711
+empty$ -- 1198
+format.name$ -- 264
+if$ -- 4872
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 79
-newline$ -- 151
-num.names$ -- 108
-pop$ -- 642
+missing$ -- 83
+newline$ -- 158
+num.names$ -- 114
+pop$ -- 668
 preamble$ -- 1
-purify$ -- 189
+purify$ -- 199
 quote$ -- 0
-skip$ -- 447
+skip$ -- 474
 stack$ -- 0
-substring$ -- 1496
-swap$ -- 180
+substring$ -- 1585
+swap$ -- 191
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 158
+type$ -- 167
 warning$ -- 24
-while$ -- 141
+while$ -- 150
 width$ -- 0
-write$ -- 272
+write$ -- 285
 (There were 24 warnings)
